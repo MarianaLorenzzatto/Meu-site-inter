@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #85307e; 
+    padding: 1.5rem 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+header nav ul li a:hover {
+    background-color: #fff;
+    color: #85307e;
+}
+
+header nav ul li a.active {
+    background-color: #fff;
+    color: #85307e;
+}
+
+.container {
+    width: 100%;
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.page-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.page-header h1 {
+    font-size: 2.5rem;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.page-header p {
+    font-size: 1.1rem;
+    color: #ffffff;
+}
+
+.ged h2 {
+    font-size: 2rem;
+    color: #85307e;
+    margin-bottom: 20px;
+}
+
+.ged h3 {
+    font-size: 1.6rem;
+    color: #85307e;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.ged p, .ged ul {
+    font-size: 1.1rem;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: square;
+    margin-left: 2rem;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .page-header h1 {
+        font-size: 2rem;
+    }
+
+    .ged h2 {
+        font-size: 1.8rem;
+    }
+
+    .ged h3 {
+        font-size: 1.4rem;
+    }
+
+    ul {
+        margin-left: 1.5rem;
+    }
+}
